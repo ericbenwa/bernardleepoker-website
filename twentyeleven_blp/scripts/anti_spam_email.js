@@ -1,0 +1,1 @@
+function m_sfcon (u) {pre = "mail";url = pre + "to:" + u;document.location.href = url + "@ebenoit.com";}
