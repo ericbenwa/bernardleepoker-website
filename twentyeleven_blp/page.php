@@ -37,6 +37,14 @@ get_header(); ?>
 			<?php if(get_post_meta($post->ID, "side_image", true)) { ?>
 				<img src="<?php echo get_post_meta($post->ID, "side_image", true) ?>" alt="<?php echo $post->post_title; ?>" />
 			<?php }?>
+
+			<?php if(get_post_meta($post->ID, "side_image_2", true)) { ?>
+				<img src="<?php echo get_post_meta($post->ID, "side_image_2", true) ?>" alt="<?php echo $post->post_title; ?>" />
+			<?php }?>
+
+			<?php if(get_post_meta($post->ID, "side_image_3", true)) { ?>
+				<img src="<?php echo get_post_meta($post->ID, "side_image_3", true) ?>" alt="<?php echo $post->post_title; ?>" />
+			<?php }?>
 		</div>
 
 <?php get_footer(); ?>
